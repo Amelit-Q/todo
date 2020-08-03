@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export const Task = () => {
     const [todos, setTodos] = useState([])  //здесь хранятся задачи из todo list
-    const [input, setInput] = useState('') //изменение тега input хранятся здесь
+    const [input, setInput] = useState('') //изменения тега input хранятся здесь
 
     function TodoModel(id, title) {
         return {
